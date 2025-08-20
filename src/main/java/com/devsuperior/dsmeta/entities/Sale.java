@@ -1,5 +1,6 @@
 package com.devsuperior.dsmeta.entities;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 import javax.persistence.Entity;
@@ -19,7 +20,7 @@ public class Sale {
 	private Long id;
 	private Integer visited;
 	private Integer deals;
-	private Double amount;
+	private Double  amount;
 	private LocalDate date;
 	
 	@ManyToOne
